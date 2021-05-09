@@ -11,7 +11,7 @@ cache:
   enable: true
 
 # Remove unnecessary files after hexo generate.
-minify: false
+minify: true
 
 # Define custom file paths.
 # Create your custom files in site directory `source/_data` and uncomment needed files below.
@@ -34,10 +34,10 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 favicon:
-  small: https://i.imgur.com/VJgWL9J.png
-  medium: https://i.imgur.com/5gYMGy3.png
-  apple_touch_icon: https://i.imgur.com/5gYMGy3.png
-  safari_pinned_tab: https://i.imgur.com/VJgWL9J.png
+  small: https://i.imgur.com/y7LJWXP.png
+  medium: https://i.imgur.com/y7LJWXP.png
+  apple_touch_icon: https://i.imgur.com/y7LJWXP.png
+  safari_pinned_tab: https://i.imgur.com/y7LJWXP.png
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
@@ -157,7 +157,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: https://i.imgur.com/vAyJAGI.png
+  url: https://i.imgur.com/o86WbYC.png
   # If true, the avatar will be dispalyed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.
@@ -172,16 +172,16 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/moicodes || fab fa-github
-  E-Mail: mailto:cal@moi.codes || fa fa-envelope
+  E-Mail: mailto:calmo@protonmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
-  Twitter: https://twitter.com/calmoji || fab fa-twitter
+  Twitter: https://twitter.com/cal_moji || fab fa-twitter
   LinkedIn: https://www.linkedin.com/in/calmo/ || fab fa-linkedin
   Twitch: https://www.twitch.tv/calmoji || fab fa-twitch
-  Mixer: https://www.mixer.com/calmoji || fab fa-mixer
+  #Mixer: https://www.mixer.com/calmoji || fab fa-mixer
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
-  #YouTube: https://youtube.com/yourname || fab fa-youtube
+  YouTube: https://www.youtube.com/channel/UC301_FusY_V67RR3wVDRrcQ || fab fa-youtube
   #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
 
@@ -271,7 +271,7 @@ reward:
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
 follow_me:
-  Twitter: https://twitter.com/calmoji || fab fa-twitter
+  Twitter: https://twitter.com/cal_moji || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
   #WeChat: /images/wechat_channel.jpg || fab fa-weixin
   #RSS: /atom.xml || fa fa-rss
@@ -334,8 +334,8 @@ calendar:
 # Set the text alignment in posts / pages.
 text_align:
   # Available values: start | end | left | right | center | justify | justify-all | match-parent
-  desktop: justify
-  mobile: justify
+  desktop: left
+  mobile: left
 
 # Reduce padding / margin indents on devices with narrow width.
 mobile_layout_economy: false
@@ -387,7 +387,7 @@ bookmark:
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
   enable: false
-  permalink: https://github.com/yourname
+  permalink: https://github.com/moicodes
   title: Follow me on GitHub
 
 
